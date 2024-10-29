@@ -416,3 +416,5 @@ CMakeUserPresets.json
 
 .vscode
 build
+
+*.ppm

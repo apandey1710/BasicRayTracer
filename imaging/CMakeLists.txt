@@ -1,4 +1,4 @@
-add_library(imaging color.cpp)
+add_library(imaging color.cpp ray.cpp)
 
 target_link_libraries(imaging PUBLIC vmath)
 
