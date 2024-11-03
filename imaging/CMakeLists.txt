@@ -1,4 +1,4 @@
-add_library(imaging color.cpp ray.cpp)
+add_library(imaging color.cpp ray.cpp hittable.cpp)
 
 target_link_libraries(imaging PUBLIC vmath)
 

@@ -7,7 +7,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_subdirectory(math)
 add_subdirectory(imaging)
+add_subdirectory(primitives)
 
 add_executable(${PROJECT_NAME} src/main.cpp)
 
 target_link_libraries(${PROJECT_NAME} PRIVATE imaging)
+target_link_libraries(${PROJECT_NAME} PRIVATE primitives)
